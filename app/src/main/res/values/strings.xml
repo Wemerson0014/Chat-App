@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Chat App</string>
+
+    <!-- signIn layout -->
+    <string name="welcome_back">Welcome back</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_hint">sign in</string>
+    <string name="create_new_account">Create New Account</string>
+
+    <!-- signUp layout -->
+    <string name="add_image">Add Image</string>
+    <string name="name_hint">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up_hint">sign up</string>
 </resources>
