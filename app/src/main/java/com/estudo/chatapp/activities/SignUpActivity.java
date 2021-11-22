@@ -15,6 +15,7 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Toast;
 
+import com.estudo.chatapp.R;
 import com.estudo.chatapp.databinding.ActivitySignUpBinding;
 import com.estudo.chatapp.utilities.Constants;
 import com.estudo.chatapp.utilities.PreferenceManager;
@@ -117,25 +118,25 @@ public class SignUpActivity extends AppCompatActivity {
 
     private Boolean isValidSignUpDetails() {
         if (encodedImage == null) {
-            showToast("Select profile image");
+            showToast(getString(R.string.select_profile_image));
             return false;
         } else if (binding.inputName.getText().toString().trim().isEmpty()) {
-            showToast("Enter name");
+            showToast(getString(R.string.enter_name));
             return false;
         } else if (binding.inputEmail.getText().toString().trim().isEmpty()) {
-            showToast("Enter email");
+            showToast(getString(R.string.enter_email));
             return false;
         } else if (!Patterns.EMAIL_ADDRESS.matcher(binding.inputEmail.getText().toString()).matches()) {
-            showToast("Enter valid email");
+            showToast(getString(R.string.enter_valid_email));
             return false;
         } else if (binding.inputPassword.getText().toString().trim().isEmpty()) {
-            showToast("Enter password");
+            showToast(getString(R.string.enter_password));
             return false;
         } else if (binding.inputConfirmPassword.getText().toString().trim().isEmpty()) {
-            showToast("Confirm your password");
+            showToast(getString(R.string.confirm_your_password));
             return false;
         } else if (!binding.inputPassword.getText().toString().equals(binding.inputConfirmPassword.getText().toString())) {
-            showToast("Password & confirm password, must be same");
+            showToast(getString(R.string.password_and_confirm_password_same));
             return false;
         } else {
             return true;

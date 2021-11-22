@@ -14,4 +14,14 @@
     <string name="name_hint">Name</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="sign_up_hint">sign up</string>
+
+    <!-- toasts-->
+    <string name="select_profile_image">Select profile image</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_valid_email">Enter valid email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="password_and_confirm_password_same">Password and confirm password, must be same</string>
+    <string name="unable_sign_in">Unable to sign in</string>
 </resources>
