@@ -15,6 +15,9 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="sign_up_hint">sign up</string>
 
+    <!-- activity_users -->
+    <string name="select_user">Select User</string>
+
     <!-- toasts-->
     <string name="select_profile_image">Select profile image</string>
     <string name="enter_name">Enter name</string>
