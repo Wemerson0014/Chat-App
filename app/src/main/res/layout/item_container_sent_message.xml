@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_8ssp"
     android:padding="@dimen/_4ssp">
 
     <com.google.android.material.textview.MaterialTextView
@@ -11,10 +13,15 @@
         android:layout_height="wrap_content"
         android:background="@drawable/background_sent_message"
         android:padding="@dimen/_12ssp"
+        android:paddingStart="@dimen/_12ssp"
+        android:paddingTop="@dimen/_8ssp"
+        android:paddingEnd="@dimen/_12ssp"
+        android:paddingBottom="@dimen/_8ssp"
         android:textColor="@color/white"
         android:textSize="@dimen/_13ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_max="wrap"
         app:layout_constraintWidth_percent="0.8" />
 
     <com.google.android.material.textview.MaterialTextView
@@ -23,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_4ssp"
         android:textColor="@color/secondary_text"
-        android:textSize="@dimen/_10ssp"
+        android:textSize="@dimen/_8ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textMessage" />
 
