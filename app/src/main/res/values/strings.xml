@@ -20,6 +20,7 @@
 
     <!-- activity_chat -->
     <string name="input_message_hint">Type a message</string>
+    <string name="text_online">Online</string>
 
     <!-- toasts-->
     <string name="select_profile_image">Select profile image</string>
