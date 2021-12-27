@@ -35,4 +35,6 @@
     <string name="token_unable">Unable to update token</string>
     <string name="signing_out">Signing out…</string>
     <string name="Unable_sign_out">Unable to sign out</string>
+    <string name="failure">failure</string>
+    <string name="notification_successfully">Notification sent successfully</string>
 </resources>
