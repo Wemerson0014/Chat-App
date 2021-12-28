@@ -21,7 +21,7 @@ A tela permite a escolha de uma foto para usar de perfil e exige que **todos os 
 Tela para exibir as mensagens recentes, iniciar uma nova conversa ou efetuar log out.
 
 
-<img src="https://user-images.githubusercontent.com/39638014/147499753-46bb11f1-483b-445f-b3eb-42d4978c7800.png" width="400">
+<img src="https://user-images.githubusercontent.com/39638014/147592216-8efec29f-2227-4f18-9a62-6991f63fafdd.png" width="400">
 
 
 # Tela de Contatos
