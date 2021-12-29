@@ -37,6 +37,21 @@ Tela para seleção de contatos para conversas.
 
 
 
+# Idioma PT-BR suportado
+
+
+<img src="https://user-images.githubusercontent.com/39638014/147688119-df987fa8-11c4-4144-8a64-8a659e351f35.png" width="400">
+
+<img src="https://user-images.githubusercontent.com/39638014/147688120-8c364b18-2700-4b52-831f-2a7c937f1655.png" width="400">
+
+<img src="https://user-images.githubusercontent.com/39638014/147688117-0c9372c1-9d97-4173-9dad-22548685951e.png" width="400">
+
+<img src="https://user-images.githubusercontent.com/39638014/147688121-d1c51850-0c88-4377-8024-d425d1e9983b.png" width="400">
+
+<img src="https://user-images.githubusercontent.com/39638014/147688113-5fbc43f6-7cee-45ff-bc5a-749dc012813c.png" width="400">
+
+
+
 # Bibliotecas utilizadas no desenvolvimento
 
 [Firebase](https://firebase.google.com/docs)
